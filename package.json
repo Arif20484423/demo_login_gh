@@ -1,0 +1,15 @@
+{
+  "name": "githubone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd Backend && npm install",
+    "start-server": "cd Backend && node index.js",
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "start-frontend": "cd frontend && npm run start"
+  },
+  "author": "Arif",
+  "license": "ISC" 
+}
