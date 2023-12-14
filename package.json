@@ -6,9 +6,9 @@
   "scripts": {
     "install-server": "cd Backend && npm install",
     "start-server": "cd Backend && node index.js",
-    "install-frontend": "cd frontend && npm install",
-    "build-frontend": "cd frontend && npm run build",
-    "start-frontend": "cd frontend && npm run start"
+    "install-frontend": "cd Frontend && npm install",
+    "build-frontend": "cd Frontend && npm run build",
+    "start-frontend": "cd Frontend && npm run start"
   },
   "author": "Arif",
   "license": "ISC" 
