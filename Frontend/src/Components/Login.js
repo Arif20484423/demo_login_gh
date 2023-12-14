@@ -9,7 +9,7 @@ const Login = () => {
   const [pass, setPass] = useState("");
   const navigate = useNavigate();
   async function handlelogin() {
-    const response = await fetch(`http://localhost:5000/api/auth/createwithpa`, {
+    const response = await fetch(`http://167.99.158.160:5000/api/auth/createwithpa`, {
       method: "POST",  // *GET, POST, PUT, DELETE, etc.
       headers: {
         "Content-Type": "application/json",

@@ -12,7 +12,7 @@ import Notecontext from "./Notecontext";
         
         let d=new Date();
         const response = await fetch(
-          `https://demo-web-pxtm.onrender.com/api/auth/createwithpa`, 
+          `http://167.99.158.160:5000/api/auth/createwithpa`, 
           {
             method: "POST", // *GET, POST, PUT, DELETE, etc.
             headers: {
@@ -62,7 +62,7 @@ import Notecontext from "./Notecontext";
         if (param) {
           let data = { code: param };
           console.log(data);
-          const response = await fetch("https://demo-web-pxtm.onrender.com/getaccesstoken", {
+          const response = await fetch("http://167.99.158.160:5000/getaccesstoken", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -83,7 +83,7 @@ import Notecontext from "./Notecontext";
         
         let d=new Date();
         const res= await fetch(
-          `https://demo-web-pxtm.onrender.com/api/auth/createwithpa`,
+          `http://167.99.158.160:5000/api/auth/createwithpa`,
           {
             method: "POST", // *GET, POST, PUT, DELETE, etc.
             headers: {
@@ -111,7 +111,7 @@ import Notecontext from "./Notecontext";
         if (param) {
           let data = { code: param };
           console.log(data);
-          const response = await fetch("https://demo-web-pxtm.onrender.com/getaccesstoken", {
+          const response = await fetch("http://167.99.158.160:5000/getaccesstoken", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -130,7 +130,7 @@ import Notecontext from "./Notecontext";
         
         let d=new Date();
         const res= await fetch(
-          `https://demo-web-pxtm.onrender.com/api/auth/update`,
+          `http://167.99.158.160:5000/api/auth/update`,
           {
             method: "PUT", // *GET, POST, PUT, DELETE, etc.
             headers: {
